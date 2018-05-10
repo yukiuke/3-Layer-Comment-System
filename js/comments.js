@@ -68,7 +68,7 @@ class Comments {
     }
     
     /**
-     * Prepares data for adding a new comment at the base level.
+     * Prepares data for adding a new comment and makes the request.
      */
     addComment (e) {
         // Validate form
