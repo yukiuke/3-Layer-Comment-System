@@ -1,7 +1,5 @@
 /**
  * @author Yuki Inazuma
- *
- * Patented.... never! Who would patent this?? xD
  */
 
 class Comments {
