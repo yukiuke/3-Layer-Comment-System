@@ -1,0 +1,58 @@
+/* @author Yuki */
+section.comments-section {
+    padding-top: 50px;
+}
+
+.clone {
+    display: none;
+}
+
+.comment {
+    margin-top: 10px;
+}
+
+.comment.lvl1 {
+    margin-top: 30px;
+}
+
+.comment .info, .comment .body {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+}
+
+.comment .info {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.comment .body {
+    border-left-width: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.comment:hover .info, .comment:hover .body {
+    background-color: #eee;
+}
+
+.addCommentForm {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 10px 0px;
+    background-color: #9f9f9f;
+}
+
+.addCommentForm .addComment {
+    margin-top: 5px;
+}
+
+.reply {
+    margin-bottom: 5px;
+}
+
+.row.addCommentFormSpacer {
+    margin-top: 40px;
+}
+
+.form-alert {
+    display: none;
+}
